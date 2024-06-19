@@ -1,7 +1,7 @@
 # Distribution_From_Function
 This code takes in a start-point, an end-point, the wanted number of Riemann sums, the number of random samples, and the function itself. 
 
-The start-point and end-point are pretty self-explanitory, the random values will be sampled between them.
+The start-point and end-point are pretty self-explanitory, the random values will be sampled between them. Make sure the function is defined everywhere between the start and end points.
 
 The wanted number of Riemann sums is the amount of possible values you want to consider in the function between the start-point and the end-point. This can be a major source of slowdown if this is larger than ~500.
 
